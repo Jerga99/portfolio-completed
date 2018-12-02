@@ -12,7 +12,7 @@ exports.checkJWT = jwt({
     jwksRequestsPerMinute: 50,
     jwksUri: 'https://eincode.eu.auth0.com/.well-known/jwks.json'
   }),
-  audience: 'NfvS9nw81ItncHJKPHCaAvwD9ChNWYn3',
+  audience: 'gd7EQfW84Qq4RiE9ul9uhxkPY81Zo3sC',
   issuer: 'https://eincode.eu.auth0.com/',
   algorithms: ['RS256']
 })
